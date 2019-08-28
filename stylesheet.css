@@ -2,48 +2,125 @@
     width: 100px;
     height: 100px;
     background-color: red;
-    }
+}
+
 .btn2 {
     width: 100px;
     height: 100px;
     background-color: blue;
-    }
+}
+
 .btn3 {
     width: 100px;
     height: 100px;
     background-color: gray;
-    }
+}
+
 .btn4 {
     width: 100px;
     height: 100px;
     background-color: red;
-    }
+}
+
 .btn5 {
     width: 100px;
     height: 100px;
     background-color: blue;
-    }
+}
+
 .btn6 {
     width: 100px;
     height: 100px;
     background-color: yellow !important;
     background-color: gray;
-    }
+}
+
 .btn7 {
     width: 100px;
     height: 100px;
     background-color: red;
     border-radius:30px;
-    }
+}
+
 .btn8 {
     width: 100px;
     height: 100px;
     background-color: blue;
     border-radius:30px;
-    }
+}
+
 .btn9 {
     width: 100px;
     height: 100px;
     background-color: gray;
     border-radius:30px;
-    }
+}
+
+.btn10 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius:30px;
+}
+
+.btn11 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 9, 247);
+    border-radius:30px;
+}
+
+.btn12 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(174, 175, 172);
+    border-radius:30px;
+}
+
+.btn {
+    color: #fff;
+    padding: .3em .5em;
+    margin-bottom: .3em;
+    border-radius: .3em;
+    text-align: center;
+    display: table; 
+}
+
+/* checkbox non-display */
+.btn10 .chk{
+    display: none;
+}
+
+/* button control */
+.btn10 #open-close ~ .btn-open-close::before {
+    content: "color code" ;
+}
+
+.btn10 #open-close:checked ~ .btn-open-close::before {
+    content: "rgb(235, 120, 139)" ;
+}
+.btn11 .chk2{
+    display: none;
+}
+
+/* button control */
+.btn11 #open-close2 ~ .btn-open-close2::before {
+    content: "color code" ;
+}
+
+.btn11 #open-close2:checked ~ .btn-open-close2::before {
+    content: "rgb(9, 9, 247)" ;
+}
+.btn12 .chk3{
+    display: none;
+}
+
+/* button control */
+.btn12 #open-close3 ~ .btn-open-close3::before {
+    content: "color code" ;
+    display: block;
+}
+
+.btn12 #open-close3:checked ~ .btn-open-close3::before {
+    content: "rgb(174, 175, 172)" ;
+}
