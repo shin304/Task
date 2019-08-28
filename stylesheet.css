@@ -2,48 +2,84 @@
     width: 100px;
     height: 100px;
     background-color: red;
-    }
+}
+
 .btn2 {
     width: 100px;
     height: 100px;
     background-color: blue;
-    }
+}
+
 .btn3 {
     width: 100px;
     height: 100px;
     background-color: gray;
-    }
+}
+
 .btn4 {
     width: 100px;
     height: 100px;
     background-color: red;
-    }
+}
+
 .btn5 {
     width: 100px;
     height: 100px;
     background-color: blue;
-    }
+}
+
 .btn6 {
     width: 100px;
     height: 100px;
     background-color: yellow !important;
     background-color: gray;
-    }
+}
+
 .btn7 {
     width: 100px;
     height: 100px;
     background-color: red;
     border-radius:30px;
-    }
+}
+
 .btn8 {
     width: 100px;
     height: 100px;
     background-color: blue;
     border-radius:30px;
-    }
+}
+
 .btn9 {
     width: 100px;
     height: 100px;
     background-color: gray;
     border-radius:30px;
-    }
+}
+
+.btn {
+    color: #fff;
+    background: rgb(235, 120, 139);
+    padding: .3em .5em;
+    margin-bottom: .3em;
+    border-radius: .3em;
+    text-align: center;
+    display: table; 
+}
+
+.btn:active {
+    background: rgb(235, 120, 139);
+}
+
+/* checkbox non-display */
+.add-control .chk{
+    display: none;
+}
+
+/* button control */
+.add-control #open-close ~ .btn-open-close::before {
+    content: "What is the color code of this color" ;
+}
+
+.add-control #open-close:checked ~ .btn-open-close::before {
+    content: "rgb(235, 120, 139)" ;
+}
