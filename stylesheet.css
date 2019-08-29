@@ -1,3 +1,13 @@
+
+.btn {
+    color: #fff;
+    padding: .3em .5em;
+    margin-bottom: .3em;
+    border-radius: .3em;
+    text-align: center;
+    display: table; 
+}
+
 .btn1 {
     width: 100px;
     height: 100px;
@@ -77,21 +87,31 @@
     border-radius:30px;
 }
 
-.btn {
-    color: #fff;
-    padding: .3em .5em;
-    margin-bottom: .3em;
-    border-radius: .3em;
-    text-align: center;
-    display: table; 
+.btn13 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    border-radius:30px;
 }
 
-/* checkbox non-display */
+.btn14 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 9, 247);
+    border-radius:30px;
+}
+
+.btn15 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(174, 175, 172);
+    border-radius:30px;
+}
+
 .btn10 .chk{
     display: none;
 }
 
-/* button control */
 .btn10 #open-close ~ .btn-open-close::before {
     content: "color code" ;
 }
@@ -103,7 +123,6 @@
     display: none;
 }
 
-/* button control */
 .btn11 #open-close2 ~ .btn-open-close2::before {
     content: "color code" ;
 }
@@ -115,7 +134,6 @@
     display: none;
 }
 
-/* button control */
 .btn12 #open-close3 ~ .btn-open-close3::before {
     content: "color code" ;
     display: block;
@@ -123,4 +141,102 @@
 
 .btn12 #open-close3:checked ~ .btn-open-close3::before {
     content: "rgb(174, 175, 172)" ;
+}
+
+.add-control {
+    width: 100px;
+    height: 100px;
+}
+
+.button {
+    font-size: 12px;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background: rgb(255, 0, 0);
+    border-radius: 30px;
+    text-align: center;
+    display: table; 
+}
+.button:hover {
+    cursor: pointer;    
+}
+
+/* checkbox non-display */
+.add-control .chk4{
+    display: none;
+}
+/* button control */
+.add-control #open-close4 ~ .btn-open-close4::before {
+    content: "color code" ;
+}
+.add-control #open-close4 ~ .code {
+    display: none ;
+}
+.add-control #open-close4:checked ~ .btn-open-close4::before {
+    content: "rgb(255, 0, 0)" ;
+}
+.add-control #open-close4:checked ~ .code {
+    display: block ;
+    font-size: 12px;
+}
+
+.button2 {
+    font-size: 12px;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background: rgb(9, 9, 247);
+    border-radius: 30px;
+    text-align: center;
+    display: table; 
+}
+
+/* checkbox non-display */
+.add-control .chk5{
+    display: none;
+}
+/* button control */
+.add-control #open-close5 ~ .btn-open-close5::before {
+    content: "color code" ;
+}
+.add-control #open-close5 ~ .code {
+    display: none ;
+}
+.add-control #open-close5:checked ~ .btn-open-close5::before {
+    content: "rgb(255, 0, 0)" ;
+}
+.add-control #open-close5:checked ~ .code {
+    display: block ;
+    font-size: 12px;
+}
+
+.button3 {
+    font-size: 12px;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background: rgb(174, 175, 172);
+    border-radius: 30px;
+    text-align: center;
+    display: table; 
+}
+
+/* checkbox non-display */
+.add-control .chk6{
+    display: none;
+}
+/* button control */
+.add-control #open-close6 ~ .btn-open-close6::before {
+    content: "color code" ;
+}
+.add-control #open-close6 ~ .code {
+    display: none ;
+}
+.add-control #open-close6:checked ~ .btn-open-close6::before {
+    content: "rgb(255, 0, 0)" ;
+}
+.add-control #open-close6:checked ~ .code {
+    display: block ;
+    font-size: 12px;
 }
