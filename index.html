@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href= "stylesheet.css">
   </head>
   <body>
+    <div id="call"></div>
     <h1>HTMLの課題</h1>
     <p>HTML-003</p>
     <button class="btn1">button</button>
@@ -36,7 +37,6 @@
       <input type="checkbox" class="chk3" id="open-close3" name="btn" />
       <label class="btn btn-open-close3" for="open-close3"></label>
     </button>
-    <div class="code">rgb(255, 0, 0)</div>
     <p>HTML-008</p>
     <div style="display: inline-block;" class="add-control">
         <input type="checkbox" class="chk4  button " id="open-close4" name="btn" />
@@ -53,5 +53,11 @@
         <label class="button3 btn-open-close6" for="open-close6"></label>
         <div class="code">rgb(255, 0, 0)</div>
     </div>
+    <script type="text/javascript">
+      window.onload = function () {
+        target = document.getElementById("call");
+        target.innerHTML = "Hello";
+      }
+    </script>
   </body>
 </html>
