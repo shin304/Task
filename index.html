@@ -6,7 +6,10 @@
     <link rel="stylesheet" type="text/css" href= "stylesheet.css">
   </head>
   <body>
+    <h1>JavaScriptの課題</h1>
+    <p>ECMA-001/002</p>
     <div id="call"></div>
+    <p>-------------------------------------------</p>
     <h1>HTMLの課題</h1>
     <p>HTML-003</p>
     <button class="btn1">button</button>
@@ -37,22 +40,19 @@
       <input type="checkbox" class="chk3" id="open-close3" name="btn" />
       <label class="btn btn-open-close3" for="open-close3"></label>
     </button>
-    <p>HTML-008</p>
-    <div style="display: inline-block;" class="add-control">
-        <input type="checkbox" class="chk4  button " id="open-close4" name="btn" />
-        <label class="button btn-open-close4" for="open-close4"></label>
-        <div class="code">rgb(255, 0, 0)</div>
-    </div>
-    <div style="display: inline-block;" class="add-control">
-        <input type="checkbox" class="chk5  button " id="open-close5" name="btn" />
-        <label class="button2 btn-open-close5" for="open-close5"></label>
-        <div class="code">rgb(255, 0, 0)</div>
-    </div>
-    <div style="display: inline-block;" class="add-control">
-        <input type="checkbox" class="chk6  button " id="open-close6" name="btn" />
-        <label class="button3 btn-open-close6" for="open-close6"></label>
-        <div class="code">rgb(255, 0, 0)</div>
-    </div>
+    <p>HTML-008（未完成）</p>
+    <button class="btn13">
+        <input type="checkbox" class="chk4" id="open-close4" name="btn" />
+        <label class="btn btn-open-close4" for="open-close4"></label>
+      </button>
+      <button class="btn14">
+        <input type="checkbox" class="chk5" id="open-close5" name="btn" />
+        <label class="btn btn-open-close5" for="open-close5"></label>
+      </button>
+      <button class="btn15">
+        <input type="checkbox" class="chk6" id="open-close6" name="btn" />
+        <label class="btn btn-open-close6" for="open-close6"></label>
+      </button>
     <p>HTML-009</p>
     <table border="3">
       <tr>
@@ -65,6 +65,49 @@
         <td>date</td><td>date</td><td>date</td><td>date</td><td>date</td>
       </tr>
     </table>
+    <p>HTML-010</p>
+    <form action="#" method="POST">
+      <div>
+        <label for="ZipCode">郵便番号: </label>
+        <input type="text" id="ZipCode" name="ZipCode">
+      </div>
+      <div>
+        <label for="todouhuken">都道府県: </label>
+        <input type="text" id="todouhuken" name="todouhuken">
+      </div>
+      <div>
+        <label for="sikutyouson">市区町村: </label>
+        <input type="text" id="sikutyouson" name="sikutyouson">
+      </div>
+      <div>
+        <label for="tiban">地番: </label>
+        <input type="text" id="tiban" name="tiban">
+      </div>
+      <div>
+        <label for="hiragana">ひらがな: </label>
+        <input type="text" id="hiragana" name="hiragana">
+      </div>
+      <div>
+        <label for="name">氏名: </label>
+        <input type="text" id="name" name="user_name">
+      </div>
+      <div>
+        <label for="yomigana">氏名よみがな: </label>
+        <input type="text" id="yomigana" name="yomigana">
+      </div>
+      <div>
+        <label for="tel">電話番号: </label>
+        <input type="text" id="tel" name="tel_number">
+      </div>
+      <div>
+        <label for="mail">メールアドレス: </label>
+        <input type="text" id="mail" name="mail_address">
+      </div>
+      <div>
+        <label for="number">携帯電話番号: </label>
+        <input type="text" id="number" name="phone_number">
+      </div>
+    </form>
     <script type="text/javascript">
       window.onload = function () {
         target = document.getElementById("call");
