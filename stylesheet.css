@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 .btn {
     color: #fff;
     padding: .3em .5em;
@@ -47,63 +51,69 @@
 .btn7 {
     width: 100px;
     height: 100px;
-    background-color: red;
+    background-color: whitesmoke;
     border-radius:30px;
 }
 
 .btn8 {
     width: 100px;
     height: 100px;
-    background-color: blue;
+    background-color: pink;
     border-radius:30px;
 }
 
 .btn9 {
     width: 100px;
     height: 100px;
-    background-color: gray;
+    background-color: skyblue;
     border-radius:30px;
 }
 
 .btn10 {
+    color: white;
     width: 100px;
     height: 100px;
-    background-color: rgb(255, 0, 0);
+    background-color: #ff0000;
     border-radius:30px;
 }
 
 .btn11 {
+    color: white;
     width: 100px;
     height: 100px;
-    background-color: rgb(9, 9, 247);
+    background-color: #00ff00;
     border-radius:30px;
 }
 
 .btn12 {
+    color: white;
     width: 100px;
     height: 100px;
-    background-color: rgb(174, 175, 172);
+    background-color: #0000ff;
     border-radius:30px;
 }
 
 .btn13 {
+    color: white;
     width: 100px;
     height: 100px;
-    background-color: rgb(255, 0, 0);
+    background-color: #ff0000;
     border-radius:30px;
 }
 
 .btn14 {
+    color: white;
     width: 100px;
     height: 100px;
-    background-color: rgb(9, 9, 247);
+    background-color: #00ff00;
     border-radius:30px;
 }
 
 .btn15 {
+    color: white;
     width: 100px;
     height: 100px;
-    background-color: rgb(174, 175, 172);
+    background-color: #0000ff;
     border-radius:30px;
 }
 
@@ -116,7 +126,7 @@
 }
 
 .btn10 #open-close:checked ~ .btn-open-close::before {
-    content: "rgb(235, 120, 139)" ;
+    content: "#ff0000" ;
 }
 .btn11 .chk2{
     display: none;
@@ -127,7 +137,7 @@
 }
 
 .btn11 #open-close2:checked ~ .btn-open-close2::before {
-    content: "rgb(9, 9, 247)" ;
+    content: "00ff00" ;
 }
 .btn12 .chk3{
     display: none;
@@ -135,108 +145,50 @@
 
 .btn12 #open-close3 ~ .btn-open-close3::before {
     content: "color code" ;
-    display: block;
 }
 
 .btn12 #open-close3:checked ~ .btn-open-close3::before {
-    content: "rgb(174, 175, 172)" ;
+    content: "0000ff" ;
 }
 
-.add-control {
-    width: 100px;
-    height: 100px;
-}
-
-.button {
-    font-size: 12px;
-    width: 100px;
-    height: 100px;
-    color: #fff;
-    background: rgb(255, 0, 0);
-    border-radius: 30px;
-    text-align: center;
-    display: table; 
-}
-.button:hover {
-    cursor: pointer;    
-}
-
-/* checkbox non-display */
-.add-control .chk4{
+.btn13 .chk4{
     display: none;
 }
-/* button control */
-.add-control #open-close4 ~ .btn-open-close4::before {
+
+.btn13 #open-close4 ~ .btn-open-close4::before {
     content: "color code" ;
 }
-.add-control #open-close4 ~ .code {
-    display: none ;
-}
-.add-control #open-close4:checked ~ .btn-open-close4::before {
-    content: "rgb(255, 0, 0)" ;
-}
-.add-control #open-close4:checked ~ .code {
-    display: block ;
-    font-size: 12px;
+
+.btn13 #open-close4:checked ~ .btn-open-close4::before {
+    content: "#ff0000" ;
 }
 
-.button2 {
-    font-size: 12px;
-    width: 100px;
-    height: 100px;
-    color: #fff;
-    background: rgb(9, 9, 247);
-    border-radius: 30px;
-    text-align: center;
-    display: table; 
+.container #open-close4:checked ~ .hide::before {
+    content: "#ff0000" ;
+    height: auto;
 }
 
-/* checkbox non-display */
-.add-control .chk5{
+.btn14 .chk5{
     display: none;
 }
-/* button control */
-.add-control #open-close5 ~ .btn-open-close5::before {
+
+.btn14 #open-close5 ~ .btn-open-close5::before {
     content: "color code" ;
 }
-.add-control #open-close5 ~ .code {
-    display: none ;
-}
-.add-control #open-close5:checked ~ .btn-open-close5::before {
-    content: "rgb(255, 0, 0)" ;
-}
-.add-control #open-close5:checked ~ .code {
-    display: block ;
-    font-size: 12px;
-}
 
-.button3 {
-    font-size: 12px;
-    width: 100px;
-    height: 100px;
-    color: #fff;
-    background: rgb(174, 175, 172);
-    border-radius: 30px;
-    text-align: center;
-    display: table; 
+.btn14 #open-close5:checked ~ .btn-open-close5::before {
+    content: "00ff00" ;
 }
-
-/* checkbox non-display */
-.add-control .chk6{
+.btn15 .chk6{
     display: none;
 }
-/* button control */
-.add-control #open-close6 ~ .btn-open-close6::before {
+
+.btn15 #open-close6 ~ .btn-open-close6::before {
     content: "color code" ;
+    display: block;
 }
-.add-control #open-close6 ~ .code {
-    display: none ;
+
+.btn15 #open-close6:checked ~ .btn-open-close6::before {
+    content: "0000ff" ;
 }
-.add-control #open-close6:checked ~ .btn-open-close6::before {
-    font-size: 10px;
-    content: "rgb(255, 0, 0)" ;
-}
-.add-control #open-close6:checked ~ .code {
-    display: block ;
-    font-size: 12px;
-}
+
