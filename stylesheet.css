@@ -164,6 +164,9 @@
     height: auto;
 }
 
+.btn13 #open-close4:checked ~ .btn-open-close4::before {
+    content: "#ff0000" ;
+}
 .btn14 .chk5{
     display: none;
 }
@@ -187,3 +190,4 @@
 .btn15 #open-close6:checked ~ .btn-open-close6::before {
     content: "0000ff" ;
 }
+
