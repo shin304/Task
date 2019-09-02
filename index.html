@@ -9,6 +9,8 @@
     <h1>JavaScriptの課題</h1>
     <p>ECMA-001/002</p>
     <div id="call"></div>
+    <p>ECMA-003/004</p>
+    <div class="call2"></div>
     <p>-------------------------------------------</p>
     <h1>HTMLの課題</h1>
     <p>HTML-003</p>
@@ -41,18 +43,21 @@
       <label class="btn btn-open-close3" for="open-close3"></label>
     </button>
     <p>HTML-008（未完成）</p>
-    <button class="btn13">
-        <input type="checkbox" class="chk4" id="open-close4" name="btn" />
-        <label class="btn btn-open-close4" for="open-close4"></label>
-      </button>
-      <button class="btn14">
-        <input type="checkbox" class="chk5" id="open-close5" name="btn" />
-        <label class="btn btn-open-close5" for="open-close5"></label>
-      </button>
-      <button class="btn15">
-        <input type="checkbox" class="chk6" id="open-close6" name="btn" />
-        <label class="btn btn-open-close6" for="open-close6"></label>
-      </button>
+    <div class="container" style="display: inline-block;">
+    <button class="btn13" id="opcl">
+      <input type="checkbox" class="chk4" id="open-close4" name="btn" />
+      <label class="btn btn-open-close4" for="open-close4"></label>
+    </button>
+    <p class="hide" for="hide-open" style="height: 0;"></p>
+    </div>
+    <button class="btn14">
+      <input type="checkbox" class="chk5" id="open-close5" name="btn" />
+      <label class="btn btn-open-close5" for="open-close5"></label>
+    </button>
+    <button class="btn15">
+      <input type="checkbox" class="chk6" id="open-close6" name="btn" />
+      <label class="btn btn-open-close6" for="open-close6"></label>
+    </button>
     <p>HTML-009</p>
     <table border="3">
       <tr>
@@ -116,7 +121,11 @@
       window.onload = function () {
         target = document.getElementById("call");
         target.innerHTML = "Hello";
-        target.style.fontSize = "24pt";
+        target.style.fontSize = "24px";
+        target = document.getElementsByClassName("call2");
+        console.log(target);
+        target[0].innerHTML = "Hello";
+        target[0].style.fontSize = "24px";
       }
     </script>
   </body>

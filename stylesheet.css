@@ -66,6 +66,7 @@
 }
 
 .btn10 {
+    color: white;
     width: 100px;
     height: 100px;
     background-color: #ff0000;
@@ -73,6 +74,7 @@
 }
 
 .btn11 {
+    color: white;
     width: 100px;
     height: 100px;
     background-color: #00ff00;
@@ -80,6 +82,7 @@
 }
 
 .btn12 {
+    color: white;
     width: 100px;
     height: 100px;
     background-color: #0000ff;
@@ -87,6 +90,7 @@
 }
 
 .btn13 {
+    color: white;
     width: 100px;
     height: 100px;
     background-color: #ff0000;
@@ -94,6 +98,7 @@
 }
 
 .btn14 {
+    color: white;
     width: 100px;
     height: 100px;
     background-color: #00ff00;
@@ -101,6 +106,7 @@
 }
 
 .btn15 {
+    color: white;
     width: 100px;
     height: 100px;
     background-color: #0000ff;
@@ -135,7 +141,6 @@
 
 .btn12 #open-close3 ~ .btn-open-close3::before {
     content: "color code" ;
-    display: block;
 }
 
 .btn12 #open-close3:checked ~ .btn-open-close3::before {
@@ -148,6 +153,15 @@
 
 .btn13 #open-close4 ~ .btn-open-close4::before {
     content: "color code" ;
+}
+
+.btn13 #open-close4:checked ~ .btn-open-close4::before {
+    content: "#ff0000" ;
+}
+
+.container #open-close4:checked ~ .hide::before {
+    content: "#ff0000" ;
+    height: auto;
 }
 
 .btn13 #open-close4:checked ~ .btn-open-close4::before {
